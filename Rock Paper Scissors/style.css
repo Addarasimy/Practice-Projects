@@ -1,0 +1,80 @@
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     max-height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+   background-color: aquamarine;
+   height: 400px;
+   width: 520px;
+   position: relative;
+   top: 100px;
+   text-align: center;
+   border-radius: 10px;
+   box-shadow: 0 0 10px #000000;
+}
+
+p {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+button {
+    font-size: 1.6em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000000;
+    padding: 5px;
+    margin: 5px;
+    width: 55px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button.rock{
+    position: relative;
+    background-color: rgb(240, 35, 35);
+}
+
+.btn-title {
+    display: inline-grid;
+    margin-right: 5px;
+}
+
+button.rock:hover{
+    background-color: red;
+}
+
+button.paper{
+    background-color: rgb(54, 54, 216);
+}
+
+button.paper:hover{
+    background-color: blue;
+}
+
+button.scissors{
+    background-color: rgb(47, 182, 47);
+}
+
+button.scissors:hover{
+    background-color: green;
+}
+
+span {
+    font-size: 1.2em;
+    font-family: cursive;
+    font-weight: bold;
+    color: crimson;
+}
+
+span.user-score{
+    color: blue;
+}

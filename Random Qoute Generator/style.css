@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: fixed linear-gradient(to left top, #010a1a, #031653, #4e0303e8);
+
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 600px;
+    background: rgba(255,255,255,.01);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.6);
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ccff33;
+}
+
+.container-title {
+    font-size: 1.7em;
+    font-weight: 600;
+    margin-bottom: 28px;
+    margin-top: 10px;
+}
+
+.quote-box {
+    background: rgba(0 ,0,0,.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.15);
+    margin-bottom: 20px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in-out;
+}
+
+.quote-text {
+    font-size: 1.4rem;
+    color:navajowhite;
+    margin-bottom: 15px;
+    line-height: 27px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.quote-text span {
+    font-size: 2rem;
+    color: mediumturquoise;
+}
+
+.quote-box:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,.25);
+    transform: translateY(-5px);
+}
+
+.quote-author {
+    font-size: 1.1rem;
+    color: rgb(99, 224, 224);
+    font-weight: 600;
+    align-self: flex-end;
+    margin-right: 15px;
+}
+
+.quote-author span {
+    font-size: 1.2rem;
+    color: mediumturquoise;
+    margin-right: 5px;
+}
+
+.quote-btn {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #010a1a;
+    background: linear-gradient(to right, #00ff99, #00ccff);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+    transition: all .3s ease-in-out;
+}
+
+.quote-btn:hover {
+    box-shadow: 0 6px 15px rgba(0,0,0,.3);
+    transform: translateY(-3px);
+}
